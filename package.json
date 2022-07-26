@@ -1,0 +1,32 @@
+{
+  "name": "thedesk",
+  "version": "1.0.7",
+  "description": "FrontDesk, provides front desk options",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build-watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kadirkoca/TheDesk.git"
+  },
+  "keywords": [
+    "usePull"
+  ],
+  "author": "Kadir KOCA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kadirkoca/TheDesk/issues"
+  },
+  "homepage": "https://github.com/kadirkoca/TheDesk#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4",
+    "axios": "^0.27.2"
+  }
+}
